@@ -47,4 +47,39 @@ ul li a{
 .section-principal{
     display: flex;
 }
+.section-principal-right {
+   margin-left: 10px;
+}
+.section-principal-right p {
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.section-principal-right a {
+     text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #309966;
+    text-align: center;
+    background-color: rgba(48, 153, 102, 0.06);
+    font-size: 14px;
+    color: #309966;
+}
+aside{
+    display: flex;
+}
+.aside-left{
+    margin-right: 15px;
+}
+.aside-left h1{
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.aside-left p{
+    line-height: 35px;
+    font-size: 18px;
+}
 
