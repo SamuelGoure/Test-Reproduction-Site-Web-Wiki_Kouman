@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    padding: 25px 80px;
+    padding: 25px 180px;
 }
 header{
     display: flex;
@@ -15,7 +15,7 @@ header img{
     max-width: 90px;
 }
 nav{
-    margin-left: 55%;
+    margin-left: 45%;
    
 }
 nav ul{
@@ -28,3 +28,23 @@ ul li{
 ul li a{
  text-decoration: none;
 }
+
+/* deuxiéme partie de header */
+
+.submenu{
+    display: flex;
+    border: 5px solid red;
+    margin-top: 50px;
+}
+.submen-left{
+    border: 5px solid green;
+    margin-right: 5px;
+}
+.submen-left p{
+ font-size: 55px;
+ font-weight: bold;
+}
+.section-principal{
+    display: flex;
+}
+
