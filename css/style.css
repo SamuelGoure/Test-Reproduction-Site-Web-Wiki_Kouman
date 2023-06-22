@@ -2,19 +2,33 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    font-weight: 500;
+    transition: all 0.25s;
 }
+
 
 header{
     display: flex;
     align-items: center;
-    border: 5px solid blue;
     background-color: #ffeec1;
+    padding: 5px 60px;
 }
 header img{
     max-width: 90px;
 }
+.don-header{
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #309966;
+    text-align: center;
+    background-color: rgba(48, 153, 102, 0.06);
+    font-size: 14px;
+    color: #309966;
+}
 nav{
-    margin-left: 45%;
+    margin-left: 35%;
    
 }
 nav ul{
@@ -26,27 +40,35 @@ ul li{
 }
 ul li a{
  text-decoration: none;
+ color: black;
+ font-size: 20px;
 }
 
 /* deuxiéme partie de header */
 
 .submenu{
     display: flex;
-    border: 5px solid red;
+    border: 5px solid #ffeec1;
     background-color: #ffeec1;
     padding-top: 50px;
+    justify-content: space-around;
+    padding: 0 60px;
 }
 .submen-left{
-    border: 5px solid green;
+    margin-right: 5px; 
+}
+.submen-right{
     margin-right: 5px;
 }
 .submen-left p{
- font-size: 55px;
+    font-size: 5.5em;
+    line-height: 80px;
  font-weight: bold;
 }
 .section-principal{
     display: flex;
     background-color: #edf9ff;
+    justify-content: center;
 }
 .section-principal-right {
    margin-left: 10px;
@@ -69,6 +91,7 @@ ul li a{
 }
 aside{
     display: flex;
+    margin: 5px 100px;
 }
 .aside-left{
     margin-right: 15px;
@@ -82,6 +105,15 @@ aside{
 .aside-left p{
     line-height: 35px;
     font-size: 18px;
+}
+.btn-atelier{
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #309966;
+    text-align: center;
+    background-color: rgba(48, 153, 102, 0.06);
+    font-size: 14px;
+    color: #309966;
 }
 .end-section-top{
     display: flex;
