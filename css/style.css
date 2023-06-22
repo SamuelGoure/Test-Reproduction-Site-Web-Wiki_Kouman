@@ -3,13 +3,12 @@
     margin: 0;
     padding: 0;
 }
-body{
-    padding: 25px 180px;
-}
+
 header{
     display: flex;
     align-items: center;
     border: 5px solid blue;
+    background-color: #ffeec1;
 }
 header img{
     max-width: 90px;
@@ -34,7 +33,8 @@ ul li a{
 .submenu{
     display: flex;
     border: 5px solid red;
-    margin-top: 50px;
+    background-color: #ffeec1;
+    padding-top: 50px;
 }
 .submen-left{
     border: 5px solid green;
@@ -46,6 +46,7 @@ ul li a{
 }
 .section-principal{
     display: flex;
+    background-color: #edf9ff;
 }
 .section-principal-right {
    margin-left: 10px;
@@ -82,4 +83,21 @@ aside{
     line-height: 35px;
     font-size: 18px;
 }
+.end-section-top{
+    display: flex;
+    margin-top: 10px;
+    border: 5px solid red;
+    width: 1450px;
+}
+.end-section-bottom{
+    display: flex;
+    border: 3px solid green;
+}
 
+
+/* Footer du site web */
+
+footer{
+    display: flex;
+    border: 5px solid blue ;
+}
