@@ -92,6 +92,7 @@ ul li a{
 aside{
     display: flex;
     margin: 5px 100px;
+    justify-content: center;
 }
 .aside-left{
     margin-right: 15px;
@@ -115,17 +116,48 @@ aside{
     font-size: 14px;
     color: #309966;
 }
+.end-section{
+    justify-content: space-between;
+}
 .end-section-top{
     display: flex;
-    margin-top: 10px;
-    border: 5px solid red;
-    width: 1450px;
+    margin-top: 10px; 
+    border: 5px solid red; 
 }
 .end-section-bottom{
     display: flex;
     border: 3px solid green;
 }
-
+.two-round-end-section-top{
+    display: flex;
+    align-items: flex-end;
+}
+.logo-green{
+    margin-left: -50%;
+}
+.round-red{
+    margin-left: 15px;
+}
+.Soutien{
+    font-size: 3rem;
+}
+.bloc-soutien{
+    justify-content: center;
+    border: 4px solid black;
+    margin-left: -55%;
+}
+.btn-don{
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #309966;
+    text-align: center;
+    background-color: rgba(48, 153, 102, 0.06);
+    font-size: 14px;
+    color: #309966;
+}
+.design-fleche-verte{
+    margin-left: 25%;
+}
 
 /* Footer du site web */
 
