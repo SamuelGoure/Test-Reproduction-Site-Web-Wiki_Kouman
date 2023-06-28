@@ -116,18 +116,14 @@ aside{
     font-size: 14px;
     color: #309966;
 }
-.end-section{
-    justify-content: space-between;
-}
+
+
 .end-section-top{
     display: flex;
     margin-top: 10px; 
     border: 5px solid red; 
 }
-.end-section-bottom{
-    display: flex;
-    border: 3px solid green;
-}
+
 .two-round-end-section-top{
     display: flex;
     align-items: flex-end;
@@ -159,9 +155,50 @@ aside{
     margin-left: 25%;
 }
 
+
+
+
+.end-section-bottom{
+    border: 5px solid green;
+}
+
+.end-section-bottom-left{
+    display: flex;
+    border: 5px solid orange;
+    padding: 5px 10%;
+}
+.end-section-bottom-left-title{
+    font-size: 2em;
+    line-height: 40px;
+}
+.end-section-bottom-right{
+    display: flex;
+    border: 5px solid maroon;
+   padding: 5px 5%;
+}
+.end-section-bottom-right-sentence{
+    line-height: 30px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Footer du site web */
 
 footer{
     display: flex;
     border: 5px solid blue ;
+    background-color: #ffeec1;
+    justify-content: space-between;
+}
+.image-footer{
+    width: 80%;
 }
