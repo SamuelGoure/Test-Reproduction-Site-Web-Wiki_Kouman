@@ -13,7 +13,7 @@ header{
     display: flex;
     align-items: center;
     background-color: #ffeec1;
-    padding: 5px 60px;
+    padding: 5px 170px;
 }
 header img{
     max-width: 90px;
@@ -28,7 +28,7 @@ header img{
     color: #309966;
 }
 nav{
-    margin-left: 35%;
+    margin-left: 25%;
    
 }
 nav ul{
@@ -120,8 +120,8 @@ aside{
 
 .end-section-top{
     display: flex;
-    margin-top: 10px; 
-    border: 5px solid red; 
+    margin: 10px 250px 
+   
 }
 
 .two-round-end-section-top{
@@ -139,7 +139,6 @@ aside{
 }
 .bloc-soutien{
     justify-content: center;
-    border: 4px solid black;
     margin-left: -55%;
 }
 .btn-don{
@@ -158,13 +157,12 @@ aside{
 
 
 
-.end-section-bottom{
+/* .end-section-bottom{
     border: 5px solid green;
-}
+} */
 
 .end-section-bottom-left{
     display: flex;
-    border: 5px solid orange;
     padding: 5px 10%;
 }
 .end-section-bottom-left-title{
@@ -173,8 +171,7 @@ aside{
 }
 .end-section-bottom-right{
     display: flex;
-    border: 5px solid maroon;
-   padding: 5px 5%;
+   padding: 5px 150px;
 }
 .end-section-bottom-right-sentence{
     line-height: 30px;
@@ -195,10 +192,36 @@ aside{
 
 footer{
     display: flex;
-    border: 5px solid blue ;
     background-color: #ffeec1;
     justify-content: space-between;
 }
 .image-footer{
     width: 80%;
+    margin-top: 95px;
+}
+.all-div-footer{
+    display: flex;
+    width: 135%;
+    margin-top: 90px;
+    margin-right: 200px;
+}
+.final-foot{
+    margin: 5px 50px;
+}
+.fa-footer-logo{
+    display: flex;
+}
+.fa-brands{
+    background-color: #1778f2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px 8px;
+}
+.fa-instagram {
+    background-color: red;
+}
+.grand-title{
+    font-weight: bold;
+    padding-bottom: 10px;
 }
